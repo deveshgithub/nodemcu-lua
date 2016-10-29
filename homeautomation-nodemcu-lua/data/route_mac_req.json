@@ -1,0 +1,18 @@
+{
+    "addmac":{    
+     "routeto":"mac.addmac",
+     "req_mincontentlen":"10",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true",
+     "file":"registeredmacs.json"
+    },  
+    "removemac":{    
+     "routeto":"mac.removemac",
+     "req_mincontentlen":"10",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true",
+     "file":"registeredmacs.json"
+    }
+}

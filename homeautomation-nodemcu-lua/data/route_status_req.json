@@ -1,0 +1,26 @@
+{
+"getstatus":{    
+     "routeto":"status.getstatus",
+     "req_mincontentlen":"0",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true",
+     "file":"status.json"
+    },
+"resetstatus":{    
+     "routeto":"status.resetstatus",
+     "req_mincontentlen":"0",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true",
+     "file":"status.json"
+    },
+"updatestatus":{    
+     "routeto":"status.updatestatus",
+     "req_mincontentlen":"3",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true",
+     "file":"status.json"
+    }
+ }

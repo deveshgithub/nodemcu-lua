@@ -1,0 +1,24 @@
+{
+       
+    "adduser":{    
+     "routeto":"user.adduser",
+     "req_mincontentlen":"5",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true"
+    },
+    "removeuser":{    
+     "routeto":"user.removeuser",
+     "req_mincontentlen":"3",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true"
+    },
+    "updatepassword":{    
+     "routeto":"user.updatepassword",
+     "req_mincontentlen":"3",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true"
+    }
+}

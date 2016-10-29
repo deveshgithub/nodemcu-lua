@@ -1,0 +1,29 @@
+{
+"wifi":{
+"id":"deviceid",
+"hostname":"hostname",
+"mode":"A",
+"configpwd":"configpwd",
+"apsid":"esp00001",
+"apssidpwd":"esp00001",
+ "wifissid":"wifissid",
+ "wifipwd":"wifipwd"
+ },
+"mqttconfig":{    
+	"clientid":"xyz",
+    "subscribetopic":"myhome/xyz",
+    "publishtopic":"myhome/abc",    
+    "host":"broker.hivemq.com",
+    "port":"1883",
+	"username":"",
+	"password":""
+ },
+"system":{
+    "mqtt":true,
+    "server":false,
+    "enckey":"**************",
+    "restorelaststate":false,
+    "sendencrypted":true,
+    "receiveencrypted":true
+ }
+}

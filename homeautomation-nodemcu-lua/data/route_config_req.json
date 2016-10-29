@@ -1,0 +1,32 @@
+{
+    "getconfig":{    
+     "routeto":"config.getconfig",
+     "req_mincontentlen":"0",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true",
+     "file":"config.json"
+    },
+    "updateconfig":{    
+     "routeto":"config.update",
+     "req_mincontentlen":"3",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true",
+     "file":"config.json"
+    },
+    "upload":{    
+     "routeto":"config.upload",
+     "req_mincontentlen":"3",
+     "req_contentype":"multipart/form-data",
+     "res_contentype":"application/json",
+     "secured":"true"
+    },
+    "compileandreset":{    
+     "routeto":"config.compileandreset",
+     "req_mincontentlen":"0",
+     "req_contentype":"application/json",
+     "res_contentype":"application/json",
+     "secured":"true"
+    }
+}
